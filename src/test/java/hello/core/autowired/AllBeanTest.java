@@ -18,8 +18,8 @@ public class AllBeanTest {
         ApplicationContext ac = new AnnotationConfigApplicationContext();
 
         DiscountService discountService = ac.getBean(DiscountService.class);
-        Member member = new Member(1L, "userA", Grade.VIP);
-        
+        Member member = new Member(1L, "userA", Grade.VIP); 
+
     }
 
 
